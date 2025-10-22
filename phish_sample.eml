@@ -1,0 +1,52 @@
+Return-Path: <bounce@malicious.ru>
+Received: from unknown (HELO mailserver) (203.0.113.45)
+    by mail.example.com with SMTP; Wed, 22 Oct 2025 07:12:34 +0000
+Received-SPF: fail (example.com: domain of bounce@malicious.ru does not designate 203.0.113.45 as permitted sender) receiver=mail.example.com; client-ip=203.0.113.45;
+Authentication-Results: mail.example.com; dkim=none; spf=fail
+Message-ID: <20251022.071234.12345@mailserver>
+From: "PayPal Support" <support@paypal-secure.com>
+To: shivangi@example.org
+Subject: URGENT: Verify Your Account — Action Required
+Date: Wed, 22 Oct 2025 07:12:00 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_12345_67890"
+
+--=_Part_12345_67890
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Dear Customer,
+
+We detected unusual activity and your account has been temporarily suspended. To restore access, please verify your account immediately by visiting the link below:
+
+https://www.paypal.com/verify
+
+If you do not complete verification within 24 hours, your account will be permanently closed.
+
+Attached is an invoice for the recent activity.
+
+Thanks,
+PayPal Support Team
+
+--=_Part_12345_67890
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <p>Dear Customer,</p>
+    <p>We detected unusual activity and your account has been temporarily suspended. To restore access, please <b>verify your account immediately</b> by clicking the link below:</p>
+    <p><a href="http://secure-paypall-login.ru/login?token=9f8b2c">https://www.paypal.com/verify</a></p>
+    <p>If you do not complete verification within <b>24 hours</b>, your account will be permanently closed.</p>
+    <p>Attached is an invoice for the recent activity.</p>
+    <p>Thanks,<br>PayPal Support Team</p>
+  </body>
+</html>
+
+------=_Part_12345_67890
+Content-Type: application/zip; name="invoice.zip"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="invoice.zip"
+
+UEsDBBQAAAAI... (truncated base64 for safety)
+------=_Part_12345_67890--
